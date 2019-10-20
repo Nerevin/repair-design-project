@@ -38,113 +38,138 @@
             </div>
         </div>
     </section>
-        <section>
-        <div>
-            <ul>
-                <li>rostov-on-don,admiral</li>
-                <li>sochi thieves</li>
-                <li>rostov-on-don patriotic</li>
-            </ul>
-            <div>
-                <h2>completed projects</h2>
-                <p>
+        <section class="project">
+            <div class="project__menu">
+                <a>rostov-on-don,admiral</a>
+                <a>sochi thieves</a>
+                <a>rostov-on-don patriotic</a>
+            </div>
+            <div class="project__text">
+                <h2>completed<br> projects</h2>
+                <p class="project__text_main">
                     Only a small part of the work performed by our company is<br>
                     presented on the site. For 14 years on in the construction<br>
                     market we have made happy more than 1000 families
                 </p>
-                <h3>city:</h3>
-                <p>
+                <div class="project__text_menu">
+                <div>
+                    <h3>city:</h3>
+                    <p>
                     Rostov-on-Don<br>
                     LCD admiral
-                </p>
-                <h3>apartment area:</h3>
-                <p>81 m2</p>
-                <h3>repair time:</h3>
-                <p>3.5 months</p>
-                <h3>repair cost:</h3>
-                <p>Upon request</p>
+                    </p>
+                </div>
+                <div>
+                    <h3>apartment area:</h3>
+                    <p>81 m2</p>
+                </div>
+                <div>
+                    <h3>repair time:</h3>
+                    <p>3.5 months</p>
+                </div>
+                <div>
+                    <h3>repair cost:</h3>
+                    <p>Upon request</p>
+                </div>
+                </div>
+                <div class="project__text_carousel-wrapper">
+                    <a class="carousel__arrow_left"><img src="assets/src/arrow-long.svg" alt="arrow left"></a>
+                    <div class="carousel__circle">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <a class="carousel_arrow_right"><img src="assets/src/arrow-long.svg" alt="arrow right"></a>
+                </div>
             </div>
-            <img src="" alt="">
-            <input type="button" src="">
-            <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <a></a>
-                <a></a>
-            </div>
-        </div>
-        </section>
-        <section>
-            <div>
-                <figure>
-                    <h3>online control</h3>
-                    <img src="" alt="">
-                </figure>
-                <video url= ""></video>
-                <img src="" alt="">
-                <p>At each facility, a camera is installed that broadcasts the progress of work on the clock.<br>
-                At any time, you can go to our website and monitor the progress of work in your<br>
-                apartment. You can watch the live broadcast from one of our facilities!<br>
-                Leave a request below and you will receive a link to the broadcast.</p>
+            <div class="project__pic">
+                <img src="assets/img/project-first.png" alt="room">
+                <img src="assets/img/project-second.png" alt="room">
+                <a><img src="assets/src/swiper.svg" alt="button"></a>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="online-control">   
+            <figure>
+                <h3>online control</h3>
+                <img src="assets/src/camera.svg" alt="camera">
+            </figure>
+            <iframe src="https://www.youtube.com/embed/To_g6qq1GZM"></iframe>  
+        </section>
+        <section class="control">
+            <div class="control__rectangle"></div>
+                <p class="control__topic">At each facility, a camera is installed that broadcasts the progress of work on the clock.<br>
+                    At any time, you can go to our website and monitor the progress of work in your<br>
+                    apartment. You can watch the live broadcast from one of our facilities!<br>
+                    Leave a request below and you will receive a link to the broadcast.</p>  
                 <form>
-                    <p>Name</p>
-                    <input type="text" value="What is your name:">
-                    <p>Phone</p>
-                    <input type="text" value="Your phone number:">
-                    <input type="button" value="submit">
-                    <p><input type="checkbox">I agree to the processing of personal data</p>
+                    <div class="control__name-wrapper">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="What is your name:" required>
+                    </div>
+                    <div class="control__phone-wrapper">
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="text" placeholder="Your phone number:" required>
+                    </div>
+                    <button type="button" class="button">submit</button>
                 </form>
-            </div>
+                <div class="control__checkbox">
+                    <input type="checkbox" id="check" required>
+                    <label for="check">I agree to the processing of personal data</label>
+                </div>
         </section>
-        <section>
-            <div>
-                <figure>
-                    <figcaption>types of repair</figcaption>
-                    <img src="" alt="">
-                </figure>
+        <section class="repair-content">
+            <figure>
+                <figcaption>types of repair</figcaption>
+                <img src="assets/src/hammer.svg" alt="hammer">
+            </figure>
+            <div class="repair-content__wrapper">
                 <div>
-                    <h4>Redecorating</h4>
-                    <ul>
-                        <li>Dismantling of old coatings</li>
-                        <li>Wallpapering</li>
-                        <li>Painting walls and ceilings</li>
-                        <li>Laying flooring</li>
-                        <li>Replacing plumbing</li>
-                        <li>Replacing sockets and switches</li>
-                        <li>Replasing doors</li>
-                    </ul>
-                    <input type="button" value="from 900 rub/m2">
+                    <img src="assets/img/repair-1.png" alt="room">
+                    <div class="repair-content__wrapper__background">
+                        <h4>Redecorating</h4>
+                        <ul>
+                            <li>Dismantling of old coatings</li>
+                            <li>Wallpapering</li>
+                            <li>Painting walls and ceilings</li>
+                            <li>Laying flooring</li>
+                            <li>Replacing plumbing</li>
+                            <li>Replacing sockets and switches</li>
+                            <li>Replasing doors</li>
+                        </ul>
+                        <input type="button" value="from 900 rub/m2" class="button">
+                    </div>
                 </div>
                 <div>
+                    <img src="assets/img/repair-2.png" alt="room">
+                    <div class="repair-content__wrapper__background">
                     <h4>Overhaul</h4>
-                    <ul>
-                        <li>Dismantling of old coatings</li>
-                        <li>Wallpapering</li>
-                        <li>Painting walls and ceilings</li>
-                        <li>Laying flooring</li>
-                        <li>Replacing plumbing</li>
-                        <li>Replacing sockets and switches</li>
-                        <li>Replasing doors</li>
-                    </ul>
-                    <input type="button" value="from 1800 rub/m2">
+                        <ul>
+                            <li>Dismantling of old coatings</li>
+                            <li>Wallpapering</li>
+                            <li>Painting walls and ceilings</li>
+                            <li>Laying flooring</li>
+                            <li>Replacing plumbing</li>
+                            <li>Replacing sockets and switches</li>
+                            <li>Replasing doors</li>
+                        </ul>
+                        <input type="button" value="from 1800 rub/m2" class="button">
+                    </div>
                 </div>
                 <div>
-                    <h4>Designer Repair</h4>
-                    <ul>
-                        <li>Dismantling of old coatings</li>
-                        <li>Wallpapering</li>
-                        <li>Painting walls and ceilings</li>
-                        <li>Laying flooring</li>
-                        <li>Replacing plumbing</li>
-                        <li>Replacing sockets and switches</li>
-                        <li>Replasing doors</li>
-                    </ul>
-                    <input type="button" value="from 4000 rub/m2">
+                    <img src="assets/img/repair-3.png" alt="room">
+                    <div class="repair-content__wrapper__background">
+                        <h4>Designer Repair</h4>
+                        <ul>
+                            <li>Dismantling of old coatings</li>
+                            <li>Wallpapering</li>
+                            <li>Painting walls and ceilings</li>
+                            <li>Laying flooring</li>
+                            <li>Replacing plumbing</li>
+                            <li>Replacing sockets and switches</li>
+                            <li>Replasing doors</li>
+                        </ul>
+                        <input type="button" value="from 4000 rub/m2" class="button">
+                    </div>
                 </div>
             </div>
         </section>

@@ -33,6 +33,11 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   min-width: 1440px;
 }
@@ -138,8 +143,6 @@ a {
   grid-column: 1/3;
   grid-row: 2/4;
   font-family: "Yeseva One";
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
@@ -167,8 +170,6 @@ a {
 .wrapper-top__content_main h2 {
   margin: 0 0 19px 60px;
   font-family: "Yeseva One";
-  font-style: normal;
-  font-weight: normal;
   font-size: 40px;
   line-height: 53px;
   text-transform: uppercase;
@@ -196,6 +197,299 @@ a {
   width: 207px;
   height: 51px;
   line-height: 51px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 7% 442px 50px auto;
+  grid-template-rows: 83px 45px 482px;
+  background-color: #131313;
+}
+
+.project__menu {
+  display: flex;
+  grid-column: span 4;
+  grid-row: span 1;
+  margin-right: 15.45%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.project__menu a {
+  margin-left: 60.5px;
+  font-family: "Yeseva One";
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+}
+.project__menu a:hover {
+  color: #E3B873;
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+
+.project__text {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.project__text h2 {
+  margin-bottom: 34px;
+  font-family: "Yeseva One";
+  font-size: 27px;
+  line-height: 37px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.project__text h3 {
+  margin-bottom: 9px;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.project__text_main {
+  margin-bottom: 42px;
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 29px;
+  color: white;
+}
+
+.project__text_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-family: "FuturaBookC";
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+.project__text_menu div {
+  margin-bottom: 34px;
+  width: 200px;
+}
+
+.project__text_carousel-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 205px;
+}
+
+.carousel__circle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 64px;
+}
+.carousel__circle div {
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.carousel__circle div:hover {
+  background: white;
+  transition: all 0.5s;
+}
+
+.carousel__arrow_left {
+  transform: rotate(180deg);
+}
+
+.project__pic {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  grid-column: 4/5;
+  grid-row: 3/4;
+  overflow: hidden;
+}
+.project__pic img {
+  width: 679px;
+  height: 482px;
+  margin-right: 20px;
+}
+.project__pic a {
+  position: absolute;
+  right: 3.15%;
+  top: 205px;
+  z-index: 2;
+}
+.project__pic a img {
+  width: 70px;
+  height: 70px;
+}
+
+.online-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 625px;
+  background: linear-gradient(to bottom, #131313 65%, white 50%);
+}
+.online-control h3 {
+  font-family: "Yeseva One";
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: white;
+}
+.online-control figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 90px;
+}
+.online-control iframe {
+  width: 817px;
+  height: 434px;
+  margin-top: 32px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.control .control__rectangle {
+  width: 55px;
+  height: 1.5px;
+  margin-top: 62.5px;
+  margin-bottom: 35px;
+  background: #E3B873;
+}
+.control p, .control label {
+  font-family: "FuturaBookC";
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+.control form {
+  width: 770px;
+  height: 51px;
+  margin-top: 91.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.control form button {
+  width: 200px;
+  height: 51px;
+  background-color: #131313;
+}
+.control form .control__name-wrapper, .control form .control__phone-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.control form .control__name-wrapper label, .control form .control__phone-wrapper label {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(54, 54, 54, 0.5);
+}
+.control form .control__name-wrapper input, .control form .control__phone-wrapper input {
+  width: 231px;
+  border-width: 0 0 1px 0;
+  border-color: rgba(54, 54, 54, 0.3);
+  font-size: 18px;
+  line-height: 24px;
+  color: #363636;
+}
+
+.control__checkbox {
+  width: 285px;
+  height: 18px;
+  margin-top: 33px;
+}
+.control__checkbox label {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.repair-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.repair-content figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.repair-content figcaption {
+  margin-bottom: 13px;
+  font-family: "Yeseva One";
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.repair-content__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1235px;
+  height: 608px;
+  margin-top: 31px;
+}
+.repair-content__wrapper h4 {
+  padding-top: 25px;
+  margin-bottom: 13px;
+  margin-left: 20px;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+.repair-content__wrapper ul {
+  margin-left: 34px;
+}
+.repair-content__wrapper li {
+  font-family: "FuturaBookC";
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+.repair-content__wrapper input {
+  width: 228px;
+  height: 54px;
+  margin-top: 23px;
+  border-radius: 0;
+  font-size: 18px;
+  line-height: 25px;
+  background: #131313;
+}
+.repair-content__wrapper div {
+  width: 392px;
+}
+.repair-content__wrapper img {
+  position: absolute;
+  width: 392px;
+  height: 421px;
+  z-index: 1;
+}
+
+div.repair-content__wrapper__background {
+  position: relative;
+  width: 330px;
+  margin-top: 319px;
+  margin-left: 31px;
+  background: white;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=index.css.map */
