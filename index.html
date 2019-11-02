@@ -173,84 +173,93 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <ol>
-                    <li>Our specialist will arrive for measurements per day<br>
-                    contact, or appoint a date convenient for you</li>
-                    <li>Free metering</li>
-                    <li>Free consultation</li>
-                    <li>Get a cost estimate and<br>
-                    the timing of your future repairs</li>
-                </ol>
+        <section class="form-block">
+            <div class="circle">
+                <img src="assets/img/big-circle.png" alt="circle">
+                <p class="circle__01">Our specialist will arrive for measurements per day<br>
+                contact, or appoint a date convenient for you</p>
+                <p class="circle__02">Free metering</p>
+                <p class="circle__03">Free consultation</p>
+                <p class="circle__04">Get a cost estimate and<br>
+                the timing of your future repairs</p>
             </div>
-            <div>
+            <div class="form-block__form">
                 <form>
                     <h4>Leave a request for free<br>
                     departure of the measurer</h4>
-                    <p>Name</p>
-                    <input type="text" value="What is your name:">
-                    <p>Phone</p>
-                    <input type="text" value="Your phone number:">
-                    <p>Email</p>
-                    <input type="text" value="Your email">
-                    <p><input type="checkbox">I agree to the processing of personal data</p>
-                    <input type="button" value="call the measurer">
+                    <label for="name-form">Name</label>
+                    <input type="text" placeholder="What is your name:" required id="name-form">
+                    <label for="phone-form">Phone</label>
+                    <input type="tel" placeholder="Your phone number:" required id="phone-form">
+                    <label for="email-form">Email</label>
+                    <input type="email" placeholder="Your email" required id="email-form">
+                    <div>
+                        <input type="checkbox" id="check-form">
+                        <label for="check-form" class="check-form">I agree to the processing of personal data</label>
+                    </div>
+                    <button class="button">call the measurer</button>
                 </form>
                 <figure>
-                    <img src="" alt="">
+                    <div>
+                        <img src="assets/src/piggy.svg" alt="pig">
+                    </div>
                     <figcaption>Help save 10% - 20% of the<br>
                     cost of materials</figcaption>
                 </figure>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="fantasy">
+            <div class="fantasy__menu">
                 <h2>we realize your<br>
                 wildest fantasies</h2>
-                <ul>
-                    <li>American classic</li>
-                    <li>Empire</li>
-                    <li>Classical</li>
-                    <li>Loft</li>
-                    <li>Minimalism</li>
-                    <li>Provence</li>
-                    <li>Romanticism</li>
-                    <li>Scandinavian style</li>
-                    <li>Mediterranean style</li>
-                    <li>High tech</li>
-                    <li>Eclecticism</li>
-                </ul>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <p>American classic</p>
+                <p>Empire</p>
+                <p>Classical</p>
+                <p>Loft</p>
+                <p>Minimalism</p>
+                <p>Provence</p>
+                <p>Romanticism</p>
+                <p>Scandinavian style</p>
+                <p>Mediterranean style</p>
+                <p>High tech</p>
+                <p>Eclecticism</p>
+            </div>
+            <div class="fantasy__content">
+                <div class="fantasy__content1">
+                    <img src="assets/img/fantasy-1.png" alt="room with clock">
+                    <img src="assets/img/fantasy-2.png" alt="room with tv">
+                </div>
+                <div class="fantasy__content2">
+                    <img src="assets/img/fantasy-3.png" alt="room with coach">
+                    <img src="assets/img/fantasy-4.png" alt="room with flower">
+                </div>
             </div>
         </section>
-        <section>
-            <div>
-                <div>
-                    <figure>
-                        <h3>design project</h3>
-                        <img src="" alt="">
-                    </figure>
-                </div>
-                <div>
-                    <div>
-                        <h3>Mini</h3>
+        <section class="design-project">
+            <div class="design-project__header">   
+                <figure>
+                    <h3>design project</h3>
+                    <img src="assets/src/pencil.svg" alt="pen">
+                </figure>
+                <p>Design project not only helps to make the repair of you apartment more modern,<br>
+                but also significantly reduces the cost of materials and reduces the time of repair work.</p>
+            </div>
+                <div class="design-project__content">
+                    <div class="design-project__content__box">
+                        <img src="assets/img/design-1.png" alt="room">
                         <ul>
+                            <h3>Mini</h3>
                             <li>Measurement drawing</li>
                             <li>Redevelopment</li>
                             <li>Layout of furniture</li>
                             <li>Plumbing plan, equipment</li>
+                            <p>150 rub / m2</p>
                         </ul>
-                        <p>150 rub / m2</p>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <h3>Standard</h3>
+                    <div class="design-project__content__box">
+                        <img src="assets/img/design-2.png" alt="room">
                         <ul>
+                            <h3>Standard</h3>
                             <li>Measurement drawing</li>
                             <li>Redevelopment</li>
                             <li>Layout of furniture</li>
@@ -258,14 +267,13 @@
                             <li>Floor Plan</li>
                             <li>Electrical plan</li>
                             <li>Lighting plan</li>
+                            <p>400 rub / m2</p>
                         </ul>
-                        <p>400 rub / m2</p>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <h3>Full</h3>
+                    <div class="design-project__content__box">
+                        <img src="assets/img/design-3.png" alt="room">
                         <ul>
+                            <h3>Full</h3>
                             <li>Measurement drawing</li>
                             <li>Redevelopment</li>
                             <li>Layout of furniture</li>
@@ -278,91 +286,95 @@
                             <li>Bill of materials</li>
                             <li>Departure for a selection of materials</li>
                             <li>Furniture selection</li>
+                            <p>900 rub / m2</p>
                         </ul>
-                        <p>900 rub / m2</p>
                     </div>
                 </div>
-            </div>
         </section>
-        <section>
-            <div>
-                <div>
-                <div>
+        <section class="goal">
+                <div class="goal__article">
                     <h6>how we are working</h6>
                     <h2>6 steps to<br>
                     the goal</h2>
-                </div>
-                <div>
-                    <p>1/6</p>
-                    <h6>departure for measurements premises</h6>
-                    <p>After your call, we go to you to consult and measure the<br>
+                    <p class="goal__article__selector">1/6</p>
+                    <h6 class="goal__article__second-head">departure for measurements premises</h6>
+                    <p class="goal__article__second-selector">After your call, we go to you to consult and measure the<br>
                     premises of your apartment. During our meeting, you can<br>
                     ask absolutely any number of question. An<br>
                     appraiser-appraiser leaves to measure the room.<br><br>
                     He will advise you on the issues of repair technology,<br>
                     apartment design, terms of repair of the apartment as a<br>
                     whole and its individual stages.</p>
+                    <div class="goal__text_carousel-wrapper">
+                        <a class="carousel__arrow_left"><img src="assets/src/arrow-long.svg" alt="arrow left"></a>
+                        <div class="carousel__circle">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <a class="carousel_arrow_right"><img src="assets/src/arrow-long.svg" alt="arrow right"></a>
+                    </div>
                 </div>
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <a></a>
-                    <a></a>
-                </div>
+                <div class="goal__menu">
                 <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <div>
+                        <li><span>01</span>Departure to<br>room measurements</li>
+                        <li><span>04</span>Purchasing Supplies</li>
+                    </div>
+                    <div>
+                        <li><span>02</span>Compilation<br>estimates</li>
+                        <li><span>05</span>Repair finishing work</li>
+                    </div>
+                    <div>
+                        <li><span>03</span>Development<br>project design</li>
+                        <li><span>06</span>Приемка-сдача работ</li>
+                    </div>
                 </ol>
-                <img src="" alt="">
-            </div>
-            <div>
-                <figure>
+                <img src="assets/img/man-in-room.png" alt="men">
+                </div>
+            </section>
+            <section class="our-team">
+                <figure class="our-team__header">
                     <h3>our team</h3>
-                    <img src="" alt="">
+                    <img src="assets/src/group.svg" alt="group">
                     <figcaption>Our team has helped to become happier for more than<br>
                     500 families and we are not going to stop</figcaption>
                 </figure>
-                <p>Each employee of our company is a qualified full-time specialist<br>
+            <div class="our-team__photo">
+                <div class="our-team__photo__dmitry">
+                    <img src="assets/src/idea.svg" alt="idea">
+                    <img src="assets/img/Dmitry-tulyakov.png" alt="Dmitry">
+                    <div>
+                        <p><span>Dmitry tulyakov</span><br>
+                        Project manager</p>
+                        <p>work experience 8 years</p>
+                    </div>
+                </div>
+                <div class="our-team__photo__larisa">
+                    <img src="assets/src/design.svg" alt="design">
+                    <img src="assets/img/Larisa Kotlyarova.png" alt="Larisa">
+                    <div>
+                        <p><h3>Larisa Kotlyarova</h3><br>
+                        Designer</p>
+                        <p>work experience 6 years</p>
+                    </div>
+                </div>
+                <div class="our-team__photo__alexey">
+                    <img src="assets/src/portfolio.svg" alt="portfolio">
+                    <img src="assets/img/Alexey Efimov.png" alt="Alexey">
+                    <div>
+                        <p><h3>Alexey Efimov</h3><br>
+                        Foreman</p>
+                        <p>work experience 12 years</p>
+                    </div>
+                </div>
+            </div>
+            <p>Each employee of our company is a qualified full-time specialist<br>
                 with work experience of 6 years.<br>
                 We do not have laborers and guest workers, each employee carries out<br>
                 work corresponding to his specialty</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <div>
-                    <p><h3>Dmitry tulyakov</h3><br>
-                    Project manager</p>
-                    <p>work experience 8 years</p>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <div>
-                    <p><h3>Larisa Kotlyarova</h3><br>
-                    Designer</p>
-                    <p>work experience 6 years</p>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <div>
-                    <p><h3>Alexey Efimov</h3><br>
-                    Foreman</p>
-                    <p>work experience 12 years</p>
-                </div>
-            </div>                
-            </div>
         </section>
         <section>
             <div>
