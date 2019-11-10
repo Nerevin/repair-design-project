@@ -22,6 +22,7 @@
     <section class="wrapper-top__content">
         <div class="wrapper-top__content_instagram">
             <a href="https://www.instagram.com/">instagram</a>
+            <div></div>
         </div>
         <figure class="wrapper-top__content_scroll-button">
             <figcaption>scroll down</figcaption>
@@ -457,38 +458,51 @@
         </section>
         <section class="question-form">
             <div class="question-form__wrapper">
-                <form>
+                <form class="question-form__form">
                     <h3>have any questions?</h3>
-                    <p>Name</p>
-                    <input type="text" value="What is your name:">
-                    <p>Phone</p>
-                    <input type="text" value="Your phone number:">
-                    <p>Question</p>
-                    <input type="text" value="I want to know:">
-                    <p><input type="checkbox">I agree to the processing of personal data</p>
-                    <input type="button" value="submit">
+                    <div class="question-form__first-line">
+                        <div>
+                            <label for="name__question">Name</label>
+                            <input id="name__question" type="text" placeholder="What is your name:" required>
+                        </div>
+                        <div>
+                            <label for="phone__question">Phone</label>
+                            <input id="phone__question" type="tel" placeholder="Your phone number:" required>
+                        </div>
+                    </div>
+                    <div class="question-form__second-line">
+                        <label for="question__question">Question</label>
+                        <input id="question__question" type="text" placeholder="I want to know:" required>
+                    </div>
+                    <div class="question-form__checkbox">
+                        <input type="checkbox" id="check-form__question" required>
+                        <label for="check-form__question">I agree to the processing of personal data</label>
+                    </div>
+                    <button class="question-form__button">submit</button>
                 </form>
-                <div>
-                    <p>rostov-on-don, nansen st.,239 shopping center<br>
-                    decorum tel +7(928)768 32 29</p>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-                <img src="" alt="">
             </div>
         </section>
+        <section class="map">
+            <p>rostov-on-don, nansen st.,239 shopping center<br>
+            decorum tel +7(928)768 32 29</p>
+            <div class="map__circle">
+                <div></div>
+                <div></div>
+            </div>
+            <img src="assets/img/map.png" alt="map">
+        </section>
     </main>
-    <footer>
+    <footer class="footer-wrapper">
         <h3>ic "repair design project"</h3>
-        <ul>
-            <li>home</li>
-            <li>projects</li>
-            <li>measurement</li>
-            <li>team</li>
-            <li>reviews</li>
-            <li>contacts</li>
-        </ul>
-        <a href="+7(928)768-32-39">+7(928)768-32-39</a>
-        <input type="button" value="request a call">
+        <nav>
+            <a href="">Home</a>
+            <a href="">Projects</a>
+            <a href="">Measurement</a>
+            <a href="">Team</a>
+            <a href="">Reviews</a>
+            <a href="">Contacts</a>
+        </nav>
+        <a class="phone-number" href="+7(928)768-32-39">+7(928)768-32-39</a>
+        <a class="button">request a call</a>
     </footer>
 </body>
