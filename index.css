@@ -122,6 +122,7 @@ a {
 
 .wrapper-top__content_instagram {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   grid-column: 1/2;
@@ -134,6 +135,12 @@ a {
   text-transform: uppercase;
   transform: rotate(90deg);
   color: #E3B873;
+}
+.wrapper-top__content_instagram div {
+  width: 1px;
+  height: 53px;
+  margin-top: 50px;
+  background: #E3B873;
 }
 
 .wrapper-top__content_scroll-button {
@@ -1150,6 +1157,186 @@ div.repair-content__wrapper__background {
   line-height: 24px;
   text-transform: uppercase;
   color: white;
+}
+
+.question-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 132px;
+  background: linear-gradient(to bottom, white 50%, rgba(24, 24, 24, 0.72) 50%);
+}
+
+.question-form__wrapper {
+  width: 883px;
+  height: 445px;
+  background: #131313;
+}
+
+.question-form__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.question-form__form h3 {
+  margin-top: 34px;
+  margin-bottom: 45px;
+  font-family: "Yeseva One";
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.question-form__first-line {
+  display: flex;
+  margin-bottom: 48px;
+}
+.question-form__first-line div {
+  display: flex;
+  flex-direction: column;
+}
+.question-form__first-line div:first-child {
+  margin-right: 58px;
+}
+.question-form__first-line div label {
+  font-family: "FuturaBookC";
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.question-form__first-line div input {
+  width: 231px;
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  border-width: 0 0 1px 0;
+  border-color: rgba(255, 255, 255, 0.15);
+  background: #131313;
+}
+
+.question-form__second-line {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 46px;
+}
+.question-form__second-line label {
+  font-family: "FuturaBookC";
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.question-form__second-line input {
+  width: 516px;
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  border-width: 0 0 1px 0;
+  border-color: rgba(255, 255, 255, 0.15);
+  background: #131313;
+}
+
+.question-form__checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  margin-bottom: 18px;
+}
+.question-form__checkbox label {
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  margin-left: 7px;
+  font-size: 16px;
+  color: white;
+}
+.question-form__checkbox input {
+  width: auto;
+  height: auto;
+  margin: 0 0 0 49px;
+}
+
+.question-form__button {
+  width: 200px;
+  height: 51px;
+  font-family: "FuturaDemiC";
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: white;
+  border: solid 1px white;
+  background: #131313;
+}
+.question-form__button:hover {
+  background-color: #E3B873;
+  transition: all 0.5s;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 55px;
+  background: rgba(24, 24, 24, 0.72);
+}
+.map p {
+  font-family: "Yeseva One";
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.map__circle {
+  display: flex;
+  margin-top: 26px;
+  margin-bottom: 43px;
+}
+.map__circle div {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: white;
+}
+.map__circle div:first-child {
+  margin-right: 15px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 133px;
+  background: #181818;
+}
+.footer-wrapper h3 {
+  margin-left: 5.7%;
+  font-family: "FuturaMediumC";
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.footer-wrapper nav {
+  width: 580px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "FuturaBookC";
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.footer-wrapper nav > a:hover {
+  color: #E3B873;
+  transition: all 0.5s;
+}
+.footer-wrapper a.button {
+  margin-right: 6.95%;
 }
 
 /*# sourceMappingURL=index.css.map */
