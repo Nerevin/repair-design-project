@@ -1,3 +1,8 @@
+@media (max-width: 375px) {
+  .wrapper-top__header nav {
+    display: none;
+  }
+}
 @font-face {
   font-family: "Proxima Nova";
   src: url("assets/fonts/ProximaNova-Regular.eot");
