@@ -1,0 +1,139 @@
+@media(max-width: 1440px) {
+    .goal {
+        display: flex;
+        justify-content: space-between;
+        background: $gray-background;
+    }
+    
+    .goal__article {
+        display: flex;
+        flex-direction: column;
+        margin-top: 27px;
+        margin-left: 100px;
+    
+        h6:first-child {
+            margin-bottom: 18px;
+    
+            font-family: $FuturaDemic;
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: $text-color
+        }
+    
+        h2 {
+            margin-bottom: 92px;
+    
+            font-family: $Yeseva;
+            font-size: 27px;
+            font-weight: normal;
+            line-height: 37px;
+            text-transform: uppercase;
+            color: $selected-menu;
+    
+            &::after {
+                position: relative;
+                bottom: 13px;
+    
+                content: "";
+                display: inline-block;
+                width: 92px;
+                height: 1px;
+                margin-left: 50px;
+    
+                background-color: $selected-menu;
+            }
+        }
+    
+        .goal__article__selector {
+            margin-bottom: 22px;
+    
+            font-family: $Yeseva;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: $text-color;
+        }
+    
+        .goal__article__second-head {
+            margin-bottom: 16px;
+    
+            font-family: $Yeseva;
+            font-size: 15px;
+            line-height: 23px;
+            text-transform: uppercase;
+            color: $selected-menu;
+        }
+    
+        .goal__article__second-selector {
+            margin-bottom: 61px;
+    
+            font-family: $FuturaBookC;
+            font-size: 15px;
+            line-height: 25px;
+            color: $text-color;
+        }
+    }
+    
+    .goal__text_carousel-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 287px;
+        height: 14px;
+    
+        .carousel__circle {
+            display: flex;
+            justify-content: space-between;
+            width: 145px;
+            height: 9.5px;
+        }
+    }
+    
+    .goal__menu {
+        display: flex;
+        flex-direction: column;
+        width: 765px;
+        margin-top: 87px;
+        margin-right: 100px;
+    
+        ol {
+            display: flex;
+            justify-content: space-between;
+            width: 765px;
+    
+            list-style: none;
+            
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+    
+            li {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 40px;
+    
+                font-family: $FuturaBookC;
+                font-size: 15px;
+                line-height: 18px;
+                color: $text-color;
+    
+                opacity: 0.3;
+    
+                span {
+                    width: 19px;
+                    margin-bottom: 17px;
+    
+                    border-bottom: 1px solid $selected-menu;
+                }
+    
+                &:hover {
+                    opacity: 1;
+                    transition: all .5s;
+                }
+            }
+        }
+    }
+}

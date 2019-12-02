@@ -1,0 +1,39 @@
+@media(max-width: 1440px) {
+    .map {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 55px;
+    
+        background: rgba(24, 24, 24, 0.72);
+    
+        p {
+            font-family: $Yeseva;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: $selected-menu;
+        }
+    }
+    
+    .map__circle {
+        display: flex;
+        margin-top: 26px;
+        margin-bottom: 43px;
+    
+        div {
+            width: 28px;
+            height: 28px;
+    
+            border-radius: 50%;
+    
+            background: white;
+        }
+    
+        div:first-child {
+            margin-right: 15px;
+        }
+    }
+}

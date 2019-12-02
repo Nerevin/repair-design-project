@@ -1,0 +1,18 @@
+@mixin FuturaDemic {
+    font-family: $FuturaDemic;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+$gray-background: #131313;
+
+$drop-font: 0;
+
+$selected-menu: #E3B873;
+$text-color: white;
+$inactive-color: rgba(255, 255, 255, 0.3);
+
+$FuturaMedium: 'FuturaMediumC';
+$FuturaBookC: 'FuturaBookC';
+$FuturaDemic: 'FuturaDemiC';
+$Yeseva: 'Yeseva One';

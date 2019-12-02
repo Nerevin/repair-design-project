@@ -1,0 +1,302 @@
+@media(max-width: 1440px) {
+    .repair-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    
+        figure {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        figcaption {
+            margin-bottom: 13px;
+    
+            font-family: $Yeseva;
+            font-size: 20px;
+            line-height: 28px;
+            text-transform: uppercase;
+            color: #181818;;
+        }
+    }
+    
+    .repair-content__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 1235px;
+        height: 608px;
+        margin-top: 31px;
+    
+        h4 {
+            padding-top: 25px;
+            margin-bottom: 13px;
+            margin-left: 20px;
+    
+            font-family: $Yeseva;
+            font-size: 18px;
+            line-height: 25px;
+            color: #363636;
+        }
+    
+        ul {
+            margin-left: 34px;
+        }
+    
+        li {
+            font-family: $FuturaBookC;
+            font-size: 15px;
+            line-height: 25px;
+            color: #959595;
+        }
+    
+        input {
+            width: 228px;
+            height: 54px;
+            margin-top: 23px;
+    
+            border-radius: 0;
+    
+            font-size: 18px;
+            line-height: 25px;
+    
+            background: $gray-background;
+        }
+    
+        div {
+            width: 392px;
+        }
+    
+        img {
+            position: absolute;
+            width: 392px;
+            height: 421px;
+    
+            z-index: 1;
+        } 
+    }
+    
+    div.repair-content__wrapper__background {
+        position: relative;
+    
+        width: 330px;
+        margin-top: 319px;
+        margin-left: 31px;
+    
+        background: white;
+    
+        z-index: 2;
+    }
+    
+    .form-block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 124px;
+    }
+    
+    .circle {
+        position: relative;
+    
+        display: flex;
+        width: 100%;
+    
+        p {
+            position: absolute;
+    
+            display: flex;
+            align-items: center;
+    
+            font-family: $FuturaMedium;
+            font-size: 18px;
+            line-height: 21px;
+            color: #363636;
+    
+            z-index: 5;
+    
+            &::before {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+    
+                width: 42px;
+                height: 42px;
+                margin-right: 17px;
+    
+                font-family: $Yeseva;
+                font-size: 18px;
+                line-height: 25px;
+                color: white;
+    
+                border-radius: 50%;
+    
+                background-color: $selected-menu;
+            }
+        }
+    }
+    
+    .circle__01 {
+        top: 17.5%;
+        left: 349px;
+    
+        &::before {
+            content: "01";
+        }
+    }
+    
+    .circle__02 {
+        top: 245px;
+        left: 430px;
+    
+        &::before {
+            content: "02";
+        }
+    }
+    
+    .circle__03 {
+        top: 420px;
+        left: 455px;
+    
+        &::before {
+            content: "03";
+        }
+    }
+    
+    .circle__04 {
+        top: 590px;
+        left: 390px;
+    
+        &::before {
+            content: "04";
+        }
+    }
+    
+    .form-block__form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 107px;
+        margin-right: 7%;
+        margin-left: 54px;
+    
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 506px;
+    
+            background-color: $gray-background;
+        }
+    
+        h4 {
+            margin-top: 28px;
+    
+            font-family: $FuturaDemic;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+            color: white;
+        }
+    
+        label {
+            margin-top: 48px;
+            margin-left: 49px;
+    
+            font-family: $FuturaBookC;
+            font-size: 15px;
+            line-height: 20px;
+            color: rgba(255, 255, 255, 0.5);
+    
+            &:first-of-type {
+                margin-top: 39px;
+            }
+        }
+    
+        input {
+            width: 408px;
+            margin-top: 7px;
+            margin-left: 49px;
+    
+            font-family: $FuturaMedium;
+            font-size: 18px;
+            line-height: 25px;
+            color: white;
+    
+            background-color: $gray-background;
+            border-width: 0 0 1px 0;
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+    
+        button {
+            width: 213px;
+            height: 51px;
+            margin-top: 39px;
+            margin-bottom: 27px;
+            margin-left: 244px;
+    
+            border-color: $selected-menu;
+            border-radius: 0;
+    
+            background-color: $gray-background;
+        }
+    
+        div {
+            display: inline-flex;
+            align-items: center;
+            height: 18px;
+            margin-top: 16px;
+    
+            .check-form {
+                width: auto;
+                height: auto;
+                margin-top: 0;
+                margin-left: 7px;
+    
+                font-size: 16px;
+                color: white;
+            }
+    
+            input {
+                width: auto;
+                height: auto;
+                margin: 0 0 0 49px;
+            }
+        }
+    
+        figure {
+            display: inline-flex;
+            align-items: center;
+            margin-top: 39px;
+    
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 72px;
+                height: 72px;
+                margin: 0 25px 0 33px;
+    
+                background-color: $selected-menu;
+                border-radius: 50%;
+    
+                img {
+                    width: 40px;
+                    height: 33px;
+                }
+            }
+    
+            figcaption {
+                font-family: $FuturaDemic;
+                font-size: 20px;
+                line-height: 25px;
+                color: $selected-menu;
+                text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+            }
+        }
+    }
+    
+    .button-mobile {
+        display: none;
+    }    
+}

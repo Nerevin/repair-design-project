@@ -6,11 +6,11 @@
         max-width: 375px;
         min-width: 0;
     }
-    .wrapper-top__header nav, .wrapper-top__content_instagram, .project__menu, .form-block, .goal, .our-clients, .wrapper-top__content_scroll-button, .footer-wrapper {
+    .wrapper-top__header nav, .wrapper-top__instagram, .project__menu, .form-block, .goal, .our-clients, .content_scroll-button, .footer-wrapper {
         display: none;
     }
 
-    .wrapper-top, .wrapper-top__content {
+    .wrapper-top, .content {
         display: flex;
 
         height: 100%;
@@ -42,7 +42,7 @@
         }
     }
 
-    .wrapper-top__content_main {
+    .content_main {
         width: 100%;
 
         h2 {
@@ -64,7 +64,7 @@
         }
     }
 
-    .wrapper-top__content_main_button {
+    .content_main_button {
         display: flex;
         flex-direction: column;
         align-items: center;
