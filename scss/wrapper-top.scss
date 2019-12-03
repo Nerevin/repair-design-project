@@ -19,6 +19,8 @@ a {
 
     border: solid white 1px;
     border-radius: 3px;
+
+    cursor: pointer;
 }
 
 .button:hover {
@@ -124,6 +126,8 @@ a {
     line-height: 19px;
     text-transform: uppercase;
     color: $text-color;
+
+    cursor: pointer;
 
     background-color: $gray-background;
     z-index: 2;

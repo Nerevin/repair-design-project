@@ -24,6 +24,8 @@
             line-height: 19px;
             text-transform: uppercase;
             color: $inactive-color;
+
+            cursor: pointer;
     
             &:hover {
                 color: $selected-menu;
@@ -104,6 +106,12 @@
 
     .carousel__arrow_left {
         transform: rotate(180deg);
+
+        cursor: pointer;
+    }
+
+    .carousel_arrow_right {
+        cursor: pointer;
     }
     
     .project__pic {
@@ -128,9 +136,20 @@
             top: 205px;
     
             z-index: 2;
+
             img {
                 width: 70px;
                 height: 70px;
+
+                border-radius: 50%;
+
+                overflow: hidden;
+
+                cursor: pointer;
+
+                &:hover {
+                    box-shadow: inset 2px 2px 2px 2px white;
+                }
             }
         }
     }
@@ -145,6 +164,8 @@
         align-items: center;
     
         width: 64px;
+
+        cursor: pointer;
         div {
             width: 10px;
             height: 10px;
