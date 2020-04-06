@@ -1,0 +1,252 @@
+@media(max-width: 1440px) {
+    .our-clients {
+        display: flex;
+        flex-direction: column;
+        margin-top: 88px;
+    
+        align-items: center;
+    }
+    
+    .our-clients__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        margin-bottom: 39px;
+    
+        h3 {
+            margin-bottom: 13px;
+    
+            font-family: $Yeseva;
+            font-size: 20px;
+            line-height: 28px;
+            color: #181818;
+        }
+    
+        img {
+            margin-bottom: 24px;
+        }
+    
+        figcaption {
+            font-family: $FuturaBookC;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #363636;
+        }
+    }
+    
+    .our-clients__content {
+        display: flex;
+    }
+    
+    .our-clients__content__fedosova, .our-clients__content__afanasyev, .our-clients__content__kiriev {
+        margin-right: 105px;
+    
+        figure {
+            display: flex;
+            align-items: center;
+            margin-bottom: 11px;
+            
+            img {
+                margin-right: 22px;
+    
+                border-radius: 50%;
+            }
+    
+            figcaption {
+                font-family: $Yeseva;
+                font-size: 18px;
+                line-height: 23px;
+                color: #181818;
+            }
+        }
+    
+        p {
+            margin-bottom: 58px;
+    
+            font-family: $FuturaBookC;
+            font-size: 15px;
+            line-height: 27px;
+            color: #959595;
+        }
+    
+        div:nth-child(3) {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 135px;
+            height: 54px;
+    
+            background: $selected-menu;
+    
+            p {
+                margin: 0;
+    
+                font-family: $Yeseva;
+                font-size: 17px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: $text-color;
+            }
+        }
+    
+        div:nth-child(4) {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 159px;
+            height: 54px;
+    
+            background: $selected-menu;
+    
+            p {
+                margin: 0;
+    
+                font-family: $Yeseva;
+                font-size: 17px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: $text-color;
+            }
+        }
+    }
+    
+    .question-form {
+        display: flex;
+        justify-content: center;
+        margin-top: 132px;
+    
+        background: linear-gradient(to bottom, white 50%, rgba(24, 24, 24, 0.72) 50%);
+    }
+    
+    .question-form__wrapper {
+        width: 883px;
+        height: 445px;
+    
+        background: $gray-background;
+    }
+    
+    .question-form__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            margin-top: 34px;
+            margin-bottom: 45px;
+    
+            font-family: $Yeseva;
+            font-size: 20px;
+            line-height: 28px;
+            text-transform: uppercase;
+            text-align: center;
+            color: $text-color;
+        }
+    }
+    
+    .question-form__first-line {
+        display: flex;
+        margin-bottom: 48px;
+    
+        div {
+            display: flex;
+            flex-direction: column;
+    
+            &:first-child {
+                margin-right: 58px;
+            }
+    
+            label {
+                font-family: $FuturaBookC;
+                font-size: 15px;
+                line-height: 20px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+    
+            input {
+                width: 231px;
+    
+                font-family: $FuturaBookC;
+                font-size: 18px;
+                line-height: 24px;
+                color: $text-color;
+    
+                border-width: 0 0 1px 0;
+                border-color: rgba(255, 255, 255, 0.15);
+    
+                background: $gray-background;
+            }
+        }
+    }
+    
+    .question-form__second-line {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 46px;
+    
+            label {
+                font-family: $FuturaBookC;
+                font-size: 15px;
+                line-height: 20px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+    
+            input {
+                width: 516px;
+    
+                font-family: $FuturaBookC;
+                font-size: 18px;
+                line-height: 24px;
+                color: $text-color;
+    
+                border-width: 0 0 1px 0;
+                border-color: rgba(255, 255, 255, 0.15);
+    
+                background: $gray-background;
+        }
+    }
+    
+    .question-form__checkbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 18px;
+        margin-bottom: 18px;
+    
+        label {
+            width: auto;
+            height: auto;
+            margin-top: 0;
+            margin-left: 7px;
+    
+            font-size: 16px;
+            color: white;
+        }
+    
+        input {
+            width: auto;
+            height: auto;
+            margin: 0 0 0 49px;
+        }
+    }
+    
+    .question-form__button {
+        width: 200px;
+        height: 51px;
+    
+        font-family: $FuturaDemic;
+        font-size: 15px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: $text-color;
+    
+        border: solid 1px white;
+    
+        background: $gray-background;
+    
+        &:hover {
+            background-color: $selected-menu;
+            transition: all .5s;
+        }
+    }    
+}

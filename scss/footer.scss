@@ -1,0 +1,41 @@
+@media(max-width: 1440px) {
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 133px;
+    
+        background: #181818;
+    
+        h3 {
+            margin-left: 5.7%;
+    
+            font-family: $FuturaMedium;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: $selected-menu;
+        }
+    
+        nav {
+            width: 580px;
+    
+            display: flex;
+            justify-content: space-between;
+    
+            font-family: $FuturaBookC;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+        }
+    
+        nav > a:hover {
+            color: $selected-menu;
+            transition: all .5s;
+        }
+    
+        a.button {
+            margin-right: 6.95%;
+        }
+    }
+}
